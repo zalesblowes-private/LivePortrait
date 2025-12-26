@@ -90,17 +90,6 @@ conda create -n LivePortrait python=3.10
 conda activate LivePortrait
 ```
 
-#### For Linux 🐧 or Windows 🪟 Users
-[X-Pose](https://github.com/IDEA-Research/X-Pose), required by Animals mode, is a dependency that needs to be installed. The step of `Check your CUDA versions` is **optional** if you only want to run Humans mode.
-
-<details>
-  <summary>Check your CUDA versions</summary>
-
-  Firstly, check your current CUDA version by:
-  ```bash
-  nvcc -V # example versions: 11.1, 11.8, 12.1, etc.
-  ```
-
   Then, install the corresponding torch version. Here are examples for different CUDA versions. Visit the [PyTorch Official Website](https://pytorch.org/get-started/previous-versions) for installation commands if your CUDA version is not listed:
   ```bash
   # for CUDA 11.1
